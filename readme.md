@@ -39,7 +39,7 @@
 | **WAREHOUSE** | 재고 보관 장소 | `창고ID` | `매장ID` |
 | **INVENTORY** | **실시간 재고 현황** | `상품ID`, `순번`, `창고ID` | `상품ID/순번`, `창고ID` |
 | **OUTBOUND** | 고객 주문 트랜잭션 | `출고ID` | `고객ID`, `관리자ID` |
-| **ADJUSTMENT_HISTORY** | 재고 조정 기록 | `재고조ID` | `상품ID/순번`, `창고ID`, `관리자ID` |
+| **ADJUSTMENT_HISTORY** | 재고 조정 기록 | `조정ID` | `상품ID/순번`, `창고ID`, `관리자ID` |
 
 ---
 
